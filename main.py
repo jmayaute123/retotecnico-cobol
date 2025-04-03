@@ -36,8 +36,12 @@ def procesar_transacciones(nombre_archivo):
 
     except FileNotFoundError:
         print(f"Error: El archivo '{nombre_archivo}' no fue encontrado.")
+    except ValueError as e:
+        print(f"Error en los valores: {e}")
+    except KeyError as e:
+        print(f"Error en la clave: {e}")
     except Exception as e:
-        print(f"Ocurrió un error: {e}")
+        print(f"Ocurrió un error inesperado: {e}")
 
 # Verificar que se haya pasado el nombre del archivo como argumento
 if __name__ == "__main__":
