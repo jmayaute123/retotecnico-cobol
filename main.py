@@ -1,3 +1,4 @@
+import sys
 import csv
 
 def procesar_transacciones(nombre_archivo):
@@ -38,7 +39,16 @@ def procesar_transacciones(nombre_archivo):
     except Exception as e:
         print(f"Ocurrió un error: {e}")
 
-# Llamada a la función para procesar el archivo CSV
+# Verificar que se haya pasado el nombre del archivo como argumento
 if __name__ == "__main__":
-    nombre_archivo = 'transacciones.csv'  # Cambia la ruta si es necesario
+    if len(sys.argv) != 2:
+        print("Uso incorrecto del script.")
+        print("Por favor, proporciona el nombre del archivo CSV como argumento.")
+        print("Ejemplo: python script.py transacciones.csv")
+        sys.exit(1)
+
+    # Obtener el nombre del archivo desde los argumentos
+    nombre_archivo = sys.argv[1]
+    
+    # Llamada a la función para procesar el archivo CSV
     procesar_transacciones(nombre_archivo)
