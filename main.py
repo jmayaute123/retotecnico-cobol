@@ -44,7 +44,7 @@ def validar_archivocsv(nombre_archivo):
         
     # Menajo de cualquier otro error no anticipado en la ejecución del programa
     except Exception as e:
-        print("Error: Ocurrió un error al validar el archivo: {e}")
+        print(f"Error: Ocurrió un error al validar el archivo: {e}")
         return None
 
 # Función principal para el procesamiento de las transacciones bancarias
@@ -95,10 +95,10 @@ def procesar_tbancarias(nombre_archivo):
 
     # Manejo de errores relacionados con conversión de tipos de datos (por ejemplo, float(monto))
     except ValueError as e:
-        print("Error: Se presentó un error en la conversión de datos: {e}")
+        print(f"Error: Se presentó un error en la conversión de datos: {e}")
     # Menajo de cualquier otro error no anticipado en la ejecución del programa
     except Exception as e:
-        print("Error: Ocurrió un error inesperado: {e}")
+        print(f"Error: Ocurrió un error inesperado: {e}")
 
 # Punto de entrada del programa
 if __name__ == "__main__":
