@@ -1,3 +1,4 @@
+# Importación de librías a ser usadas en el código
 import sys
 import csv
 import os
