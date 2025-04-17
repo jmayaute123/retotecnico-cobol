@@ -37,7 +37,7 @@ Se deben tener presente las siguientes instrucciones para la correcta ejecución
 
 La lógica implementada se estructuró en tres etapas:
   
-  -  **Presencia de archivo de entrada:** Nos aseguramos que el nombre del archivo sea un imput en la línea de comando de llamada al programa, siendo un ejemplo correcto el siguiente: py main.py muestra_correcta_1.csv
+  -  **Presencia de archivo de entrada:** Nos aseguramos que el nombre del archivo sea un imput en la línea de comando de llamada al programa, siendo un ejemplo correcto el siguiente: py main.py muestra_correcta_n1.csv
      
   -  **Validación de formato del archivo de entrada:** Nos aseguramos que el archivo cuenta con una extensión csv, que exista en la ruta del proyecto, que contenga los encabezados esperados y que contenga almenos una transacción para poder darle paso a la etapa de procesamiento de datos
     
