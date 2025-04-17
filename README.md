@@ -51,7 +51,7 @@ El proyecto, que cuenta con una única carpeta para todos los archivos, se estru
 
 - **README:** Contiene todo el detalle de la estructura del proyecto
 - **main.py:** Es el único archivo python en el que se ha definido todo el código estructurado en tres etapas
-- **muestras:** Se han agregado a la carpeta un total de siete muestras, siendo la "muestra_correcta_1.csv" la solicitada en el csv. El objetivo de tener siete, es poder validar todas las buenas prácticas utilizadas en este código 
+- **muestras:** Se han agregado a la carpeta un total de siete muestras, siendo la "muestra_correcta_n1.csv" la solicitada en el csv. El objetivo de tener siete, es poder validar todas las buenas prácticas utilizadas en este código 
 
 
 
