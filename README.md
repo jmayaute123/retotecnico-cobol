@@ -29,7 +29,7 @@ Se deben tener presente las siguientes instrucciones para la correcta ejecución
 
 - Para ejecutar el programa, utiliza el siguiente comando en la terminal, previamente debes ubicarte en la ruta de los archivos clonados:
   ```bash
-  py main.py muestra_correcta_1.csv
+  py main.py muestra_correcta_n1.csv
   
 **Nota:** Se han proporcionado dos archivos de muestras correctas y 5 archivos de muestras incorrectas para poder validar las distintas funcionalidades del código. En caso se necesite probar con otro archivo .csv se debe asegurar de agregarlo a la carpeta del proyecto
 
